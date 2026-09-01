@@ -1,0 +1,11 @@
+{
+  "name": "Documentarian",
+  "install": "bash ./.cursor/install.sh",
+  "terminals": [
+    {
+      "name": "docs",
+      "command": "./.venv/bin/mkdocs serve -a 0.0.0.0:8000"
+    }
+  ],
+  "ports": [8000]
+}
